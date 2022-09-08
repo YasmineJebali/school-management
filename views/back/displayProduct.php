@@ -1,14 +1,13 @@
 <?php 
 
-require_once '../../controller/productsC.php';
-require_once '../../models/Type.php';
-require_once '../../models/product.php';
+require_once '../../controller/CourseController.php';
 
+data=new course controller
+$courses=
 session_start();
 if (isset ($_POST['supprimer']))
 {   
-$req="DELETE from produit where id_prod=".$_POST['id_prod'];
-$db=config::getConnexion();
+$req="DELETE from courses where id_prod=".$_POST['id_prod'];
 $sql=$db->prepare($req);
 $sql->execute();
 

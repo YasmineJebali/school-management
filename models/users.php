@@ -38,11 +38,11 @@ class users
     {
         return $this->password;
     }
-    function profile_picture()
+    function getprofile_picture()
     {
         return $this->profile_picture;
     }
-    function user_picture()
+    function getuser_picture()
     {
         return $this->user_picture;
     }

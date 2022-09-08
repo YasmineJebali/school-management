@@ -3,7 +3,7 @@
 include_once "configg.php";
 include_once "../models/Course.php";
 
-class GroupeController {
+class CourseController {
 
     public function findMany() {
         try {
